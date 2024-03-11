@@ -1,0 +1,20 @@
+[
+
+    
+    {
+        "id": 1,
+        "WriteName": "Temani Afif",
+        "title": "Modern CSS Tooltips And Speech Bubbles (Part 1)",
+        "Posted_date": "7 march, 2024",
+        "expert": "Tooltips are a very common pattern used in CSS for years. There are a lot of ways to approach tooltips in CSS, though some evoke headaches with all the magic numbers they require. In this article, Temani Afif presents modern techniques to create tooltips with the smallest amount of markup and the greatest amount of flexibility. In a previous article, we explored ribbon shapes and different ways to approach them using clever combinations of CSS gradients and clip-path(). This time, I'd like to explore another shape, one that you've likely had to tackle at least once in your front-end life: tooltips. You know what we're talking about, those little things that look like speech bubbles from comic books. They're everywhere in the wild, from a hover effect for buttons to the text messaging app on your phone. The shapes may look easy to make in CSS at first glance, but it always ends with a lot of struggles. For example, how do you adjust the position of the tail to indicate whether the tooltip is coming from a left, right, or center position? There are plenty of considerations to take into account when making tooltips — including overflowage, collision detection, and semantics — but it's the shape and direction of the tail that I want to focus on because I often see inflexible fixed units used to position them.Forget what you already know about tooltips because in this article, we will start from zero, and you will learn how to build a tooltip with minimal markup powered by modern CSS that provides flexibility to configure the component by adjusting CSS variables. We are not going to build one or two shapes, but… 100 different shapes! That may sound like we're getting into a super-long article, but actually, we can easily get there by adjusting a few values. In the end, you will have a back pocket full of CSS tricks that can be combined to create any shape you want. And guess what? I've already created an online collection of 100 different tooltip shapes where you can easily copy and paste the code for your own use, but stay with me. You're going to want to know the secret to unlocking hundreds of possibilities with the least possible code. We'll start with the shapes themselves, discussing how we can cut out the bubble and tail by combining CSS gradients and clipping. Then, we'll pick things back up in a second article dedicated to improving another common approach to tooltips using borders and custom shapes.",
+        "image": "/BuzzStrivePro/src/assets/images/image1.png"
+    },
+    {
+        "id": 2,
+        "WriteName": "Malik Qasim",
+        "title": "Modern CSS Tooltips And Speech Bubbles (Part 2)",
+        "Posted_date": "7 march, 2024",
+        "expert": "Tooltips are a very common pattern used in CSS for years. There are a lot of ways to approach tooltips in CSS, though some evoke headaches with all the magic numbers they require. In this article, Temani Afif presents modern techniques to create tooltips with the smallest amount of markup and the greatest amount of flexibility.",
+        "image": "/BuzzStrivePro/src/assets/images/image1.png"
+    }
+]

@@ -1,0 +1,18 @@
+.slideIn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    transform-origin: bottom;
+}
+.sldieOut{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    transform-origin: top;
+}

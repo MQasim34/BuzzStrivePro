@@ -1,0 +1,34 @@
+use These Functions in the main Blog page according to your file paths
+
+// import axios from 'axios';
+// import Posts from '../components/Posts';
+// import Pagination from '../components/Pagination';
+// import blogConent from '../constant/bolgContent/index.json'
+
+
+//   const [posts, setPosts] = useState([]);
+  // const [loading, setLoading] = useState(false)
+  // const [currentPage, setCurrentPage] = useState(1)
+  // const [postPerPage, setpostPerPage] = useState(10)
+
+  // useEffect(() => {
+  //   const fetchPOsts = async() => {
+  //     setLoading(true)
+  //     const res = await axios.get('https://jsonplaceholder.typicode.com/posts'); //https://jsonplaceholder.typicode.com/posts
+  //     setPosts(res.data)
+  //     setLoading(false)
+  //   }
+
+  //   fetchPOsts();
+  // }, [])
+
+
+  // const indexOfLastPost = currentPage * postPerPage
+  // const indexOfFirstPost = indexOfLastPost - postPerPage
+  // const currentPost = posts.slice(indexOfFirstPost, indexOfLastPost)
+
+  // const pagenate = (PageNumbers) => {
+  //   setCurrentPage(PageNumbers)
+  // }
+
+  // console.log(blogConent);
