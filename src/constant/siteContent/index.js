@@ -25,11 +25,11 @@ export const primaryHeaders = [
         title: "works",
         URL: 'BuzzStrivePro/Works'
     },
-    {
-        id: 4,
-        title: "blogs",
-        URL: 'BuzzStrivePro/Blogs'
-    },
+    // {
+    //     id: 4,
+    //     title: "blogs",
+    //     URL: 'BuzzStrivePro/Blogs'
+    // },
     {
         id: 5,
         title: "contact",

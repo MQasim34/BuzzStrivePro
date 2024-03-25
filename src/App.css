@@ -878,4 +878,49 @@ a {
 .BlogDetails .autherDetails h1{
     font-size: 9px;
     margin: 0 0 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* works */
+
+.worksmain .aboutCntnt{
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+}
+.worksmain .worksLink{
+    background-color: transparent;
+    font-size: 18px;
+    color: var(--white-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+}
+.worksmain  span{
+    font-size: 12px;
+    text-transform: lowercase;
+    color: var(--white-color);
+    font-family: "Montserrat", sans-serif;
+
+}
+.worksmain p{
+    font-size: 14px ;
+    line-height: 1.6;
+    margin: 5px 0 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+.worksmain button{
+    font-size: 14px;
+    padding: 7px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media all and (max-width: 767px){
+    .worksmain .row{
+        gap: 20px;
+    }
+    .worksmain p{
+        font-size: 13px;
+    }
 }
