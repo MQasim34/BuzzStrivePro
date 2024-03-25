@@ -7,7 +7,8 @@ import { LiaFacebookF, LiaInstagram, LiaLinkedinIn } from "react-icons/lia";
 import { RiTwitterXFill } from "react-icons/ri";
 import { Button } from '@mui/material';
 import ResumeBtn from './ResumeBtn';
-import resumeImg from '../assets/images/sidebarImg.jpg';
+// import resumeImg from '../assets/images/sidebarImg.jpg';
+import contact from '../assets/images/contact.jpg'
 // import ReactCSSTransitionGroup from 'react-transition-group';
 
 
@@ -37,10 +38,10 @@ const SideBar = () => {
   // sideBarclick
   const [isOpen, setisOpen] = useState(true)
   const sideBarclick = () => {
-    if(isOpen === false){
+    if (isOpen === false) {
       setSidebartoggle(true)
       setisOpen(true)
-    }else(
+    } else (
       setSidebartoggle(false),
       setisOpen(false)
     )
@@ -57,7 +58,7 @@ const SideBar = () => {
       <div className="sidebarImage d-flex flex-column">
         <div className='formobile'>
           <div className='sbimg'>
-            <img src={resumeImg} alt="Person Image" />
+            <img src={contact} alt="Person Image" />
           </div>
           <div className='nameclassses'>
             <h1>BuzzStrivePro</h1>
@@ -65,71 +66,81 @@ const SideBar = () => {
           </div>
         </div>
         <div className='mobilebtn'>
-          <Button onClick={sideBarclick} style={{transition: 'all 1s ease-in-out'}}>Contact me</Button>
+          <Button onClick={sideBarclick} style={{ transition: 'all 1s ease-in-out' }}>Contact me</Button>
         </div>
       </div>
       {/* <ReactCSSTransitionGroup> */}
       {mobosideBar && isOpen ?
         (false) : (
-        <div>
-          <div className="sb-Contacts d-flex flex-column" style={{transition: 'all 1s ease-in-out'}}>
-            <div className='sbContainer d-flex justify-content-start gap-3'>
-              <div className='contactIcon'>
-                <CiMobile3 />
+          <div>
+            <div className="sb-Contacts d-flex flex-column" style={{ transition: 'all 1s ease-in-out' }}>
+              <div className='sbContainer d-flex justify-content-start gap-3'>
+                <div className='contactIcon'>
+                  <CiMobile3 />
+                </div>
+                <div className='contact_content d-flex flex-column'>
+                  <h4>Phone</h4>
+                  <h1>+92 318 5531368</h1>
+                </div>
               </div>
-              <div className='contact_content d-flex flex-column'>
-                <h4>Phone</h4>
-                <h1>+92 318 5531368</h1>
+              <div className='sbContainer d-flex justify-content-start gap-3'>
+                <div className='contactIcon'>
+                  <IoIosMailUnread />
+                </div>
+                <div className='contact_content d-flex flex-column'>
+                  <h4>Email</h4>
+                  <h1>qasimtech777</h1>
+                </div>
               </div>
+
+              <div className='sbContainer d-flex justify-content-start gap-3'>
+                <div className='contactIcon'>
+                  <IoLocation />
+                </div>
+                <div className='contact_content d-flex flex-column'>
+                  <h4>Location</h4>
+                  <h1>Hong kong Plaza</h1>
+                </div>
+              </div>
+
+              <div className='sbContainer d-flex justify-content-start gap-3'>
+                <div className='contactIcon'>
+                  <IoCalendarClearOutline />
+                </div>
+                <div className='contact_content d-flex flex-column'>
+                  <h4>Birthday</h4>
+                  <h1>May 15, 2001</h1>
+                </div>
+              </div>
+
             </div>
-            <div className='sbContainer d-flex justify-content-start gap-3'>
-              <div className='contactIcon'>
-                <IoIosMailUnread />
-              </div>
-              <div className='contact_content d-flex flex-column'>
-                <h4>Email</h4>
-                <h1>qasimtech777</h1>
-              </div>
+
+            {/* sideBar social icns */}
+            <div className="sb_icons_main mt-3">
+              <ul className='d-flex align-items-center justify-content-center m-0 p-0 '>
+                <li>
+                  <Link to='https://www.facebook.com/profile.php?id=100010796327638' target='_blank'><Button className='facebook'><LiaFacebookF /></Button></Link>
+                </li>
+                <li><Button className='twitter'><RiTwitterXFill /></Button></li>
+                <li>
+                  <Link to="https://www.instagram.com/qasi.m6826/" target='_blank'>
+                    <Button className='instagram'><LiaInstagram /></Button>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://www.linkedin.com/in/mqasimdeveloper/" target="_blank">
+                    <Button className='linkedin'><LiaLinkedinIn /></Button>
+                  </Link>
+                </li>
+
+              </ul>
             </div>
 
-            <div className='sbContainer d-flex justify-content-start gap-3'>
-              <div className='contactIcon'>
-                <IoLocation />
-              </div>
-              <div className='contact_content d-flex flex-column'>
-                <h4>Location</h4>
-                <h1>Hong kong Plaza</h1>
-              </div>
+            <div className='donld_CV'>
+              <ResumeBtn />
             </div>
-
-            <div className='sbContainer d-flex justify-content-start gap-3'>
-              <div className='contactIcon'>
-                <IoCalendarClearOutline />
-              </div>
-              <div className='contact_content d-flex flex-column'>
-                <h4>Birthday</h4>
-                <h1>May 15, 2001</h1>
-              </div>
-            </div>
-
-          </div>
-
-          {/* sideBar social icns */}
-          <div className="sb_icons_main mt-3">
-            <ul className='d-flex align-items-center justify-content-center m-0 p-0 '>
-              <li><Button className='facebook'><LiaFacebookF /></Button></li>
-              <li><Button className='twitter'><RiTwitterXFill /></Button></li>
-              <li><Button className='instagram'><LiaInstagram /></Button></li>
-              <li><Button className='linkedin'><LiaLinkedinIn /></Button></li>
-
-            </ul>
-          </div>
-
-          <div className='donld_CV'>
-            <ResumeBtn />
-          </div>
-        </div>)}
-        {/* </ReactCSSTransitionGroup> */}
+          </div>)}
+      {/* </ReactCSSTransitionGroup> */}
     </div>
   )
 }

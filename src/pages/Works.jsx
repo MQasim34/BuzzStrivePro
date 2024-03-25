@@ -8,7 +8,7 @@ import { Button } from '@mui/material'
 const Works = () => {
 
   const wordksfun = workDetail.map((w, index) => (
-    <div className="col-md-6 col-sm-12 mb-4" key={index}>
+    <div className="col-lg-6 col-sm-12 mb-4" key={index}>
       <div className='aboutCntnt'>
         <Link to={w.linkUrl} target='_blank'>
           <img src={w.imgUrl} alt={w.imgAlt} width='100%' />

@@ -403,7 +403,7 @@ a {
 .footer {
     padding: 0 0 10px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -433,6 +433,36 @@ a {
 .footer span .strong:hover {
     opacity: .8;
     padding: 4px;
+}
+
+.footer .fiverr{
+    color: #00c27a;
+}
+.footer .fiverr:hover{
+    background-color: #00c27a;
+    color: #fff;
+}
+.footer .footerIcon{
+    gap:10px;
+}
+.footer .netlify{
+    color: #fff;
+}
+.footer .netlify:hover{
+    background-color: #0400ff;
+    color: #fff;
+}
+.footer .github{
+    color: #fff;
+}
+.footer .github:hover{
+    background-color: #fff;
+    color: #000;
+}
+@media all and (max-width: 767px){
+    .footer{
+        flex-direction: column;
+    }
 }
 
 
@@ -924,3 +954,13 @@ a {
         font-size: 13px;
     }
 }
+
+
+
+button.twitter svg{
+    fill: var(--white-color);
+}
+.mainSideBar .sideBarOuter .sb_icons_main ul li button.twitter:hover svg{
+    fill: #fff;
+}
+
