@@ -5,22 +5,22 @@ import { MdOutlineDownload } from "react-icons/md";
 const ResumeBtn = () => {
 
     const handleDownload = () => {
-        // // Construct the download URL for the resume file
-        // const resumeUrl = 'https://example.com/resume.pdf';
+        // Construct the download URL for the resume file
+        const resumeUrl = '../assets/images/MyResume.pdf';
 
-        // // Create a temporary anchor element
-        // const link = document.createElement('a');
-        // link.href = resumeUrl;
+        // Create a temporary anchor element
+        const link = document.createElement('a');
+        link.href = resumeUrl;
 
-        // // Set the download attribute to specify the file name
-        // link.download = 'resume.pdf';
+        // Set the download attribute to specify the file name
+        link.download = 'resume.pdf';
 
-        // // Simulate a click to trigger the download
-        // document.body.appendChild(link);
-        // link.click();
+        // Simulate a click to trigger the download
+        document.body.appendChild(link);
+        link.click();
 
-        // // Remove the temporary anchor element
-        // document.body.removeChild(link);
+        // Remove the temporary anchor element
+        document.body.removeChild(link);
     }
     return (
         <div className='mt-3'>

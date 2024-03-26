@@ -964,3 +964,95 @@ button.twitter svg{
     fill: #fff;
 }
 
+
+.aftersub{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aftersub p{
+    color: var(--white-color);
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+/* Resume */
+
+.aboutsec .resumeTitle{
+    gap: 5px;
+}
+.aboutsec .resumeTitle h1{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 0;
+    text-decoration: underline;
+
+}
+.aboutsec .resumeTitle svg{
+    font-size: 30px;
+    color: var(--white-color);
+    box-shadow: var(--box-shadow);
+}
+.aboutsec .contentresume {
+    background-color: var(--background-color);
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.aboutsec .contentresume .resumeInner{
+    flex: 70%;
+}
+.aboutsec .contentresume span{
+    color: var(--white-color);
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    
+}
+.aboutsec .contentresume h1,
+.aboutsec .contentresume h3{
+    color: var(--white-color);
+    font-size: 26px;
+    /* text-transform: capitalize; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.aboutsec .contentresume .resumeSideImg{
+    flex: 50%;
+}
+.aboutsec .contentresume .resumeSideImg img{
+    width: 100%;
+    /* height: 200px; */
+}
+@media all and (max-width:1024px){
+    .aboutsec .contentresume {
+        flex-direction: column;
+    }
+    .aboutsec .contentresume h1, 
+    .aboutsec .contentresume h3{
+        font-size: 24px;
+    }
+    
+}
+@media all and (max-width:767px){
+    .aboutsec .contentresume {
+        flex-direction: column;
+        padding: 10px 12px ;
+    }
+    .aboutsec .contentresume h1, 
+    .aboutsec .contentresume h3{
+        font-size: 16px;
+    }
+    
+}

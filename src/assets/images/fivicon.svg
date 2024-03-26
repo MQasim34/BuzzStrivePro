@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.81 687.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d2d2d1;
+        font-size: 131.42px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #ed2024;
+      }
+
+      .cls-2 {
+        font-size: 512.17px;
+        stroke: #3b53a4;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 118.68px;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(3 431.69) scale(1.04 1)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-3" transform="translate(106.5 215.49) scale(1.01 1)"><tspan x="0" y="0">S</tspan></text>
+  <text class="cls-1" transform="translate(103.07 377.32) scale(1.12 1)"><tspan x="0" y="0">P</tspan></text>
+  <text class="cls-4" transform="translate(213.76 684.91)"><tspan class="cls-5" x="0" y="0">L</tspan><tspan x="5.5" y="0">o</tspan><tspan class="cls-6" x="12.08" y="0">r</tspan><tspan x="15.89" y="0">em ipsum</tspan></text>
+</svg>

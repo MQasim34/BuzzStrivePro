@@ -36,7 +36,7 @@ const Works = () => {
 
       <PageMainHeading text='works' />
 
-      <div className='worksmain mt-5'>
+      <div className='worksmain mt-3'>
         <div className="container-fliud">
           <div className="row">
             {wordksfun}
