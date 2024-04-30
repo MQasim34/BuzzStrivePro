@@ -2,6 +2,15 @@ import { azure, cotre, flexBlocks, mahindra, riode, sirius, venice, vimeo, YBD, 
 
 export const workDetail = [
     {
+         id: 10,
+        title: "Trax",
+        details: "This website has been designed in wordress elementor and elementor pro. We are using only elementor and jetengine wordpress plugin to create it.",
+        imgAlt: "trax img",
+        imgUrl: azure,
+        categories: "Wordpress",
+        linkUrl: "http://archo.kesug.com/",
+    },
+    {
         id: 1,
         title: "azure",
         details: "This website has been designed to be simple. We are using front-end technologies like HTML, CSS and JavaScript to create it.",
