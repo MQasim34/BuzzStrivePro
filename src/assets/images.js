@@ -17,6 +17,7 @@ import vimeo from './images/vimeeo.jpg'
 import YBD from './images/YBD.jpg'
 import creative from './images/creative.jpg'
 import archo from './images/archo.jpg'
+import trax from './images/trax.png'
 
 
 
@@ -39,6 +40,6 @@ export {
     vimeo,
     YBD,
     creative,
-    archo
-
+    archo,
+    trax
 }
