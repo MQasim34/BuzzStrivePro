@@ -1,4 +1,4 @@
-import { azure, cotre, flexBlocks, mahindra, riode, sirius, venice, vimeo, YBD, creative, archo } from "../../assets/images"
+import { azure, cotre, flexBlocks, mahindra, riode, sirius, venice, vimeo, YBD, creative, archo, trax } from "../../assets/images"
 
 export const workDetail = [
     {
@@ -6,7 +6,7 @@ export const workDetail = [
         title: "Trax",
         details: "This website has been designed in wordress elementor and elementor pro. We are using only elementor and jetengine wordpress plugin to create it.",
         imgAlt: "trax img",
-        imgUrl: azure,
+        imgUrl: trax,
         categories: "Wordpress",
         linkUrl: "http://archo.kesug.com/",
     },
