@@ -18,6 +18,7 @@ import YBD from './images/YBD.jpg'
 import creative from './images/creative.jpg'
 import archo from './images/archo.jpg'
 import trax from './images/trax.png'
+import learnworlds from './learnworld1.jpg'
 
 
 
@@ -41,5 +42,6 @@ export {
     YBD,
     creative,
     archo,
-    trax
+    trax,
+    learnworlds
 }
