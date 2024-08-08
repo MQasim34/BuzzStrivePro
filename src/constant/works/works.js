@@ -1,4 +1,4 @@
-import { azure, cotre, flexBlocks, mahindra, riode, sirius, venice, vimeo, YBD, creative, archo, trax } from "../../assets/images"
+import { azure, cotre, flexBlocks, mahindra, riode, sirius, venice, vimeo, YBD, creative, archo, trax, learnworld1 } from "../../assets/images"
 
 export const workDetail = [
     {
@@ -6,7 +6,7 @@ export const workDetail = [
         title: "Taxi theory test",
         details: "I developed a comprehensive 'Taxi Theory Test' website in WordPress, featuring multi-language support. The platform includes custom quiz functionality, time-bound assessments, and interactive feedback, providing an efficient learning environment for aspiring taxi drivers.",
         imgAlt: "taxi theory test img",
-        imgUrl: learnworlds,
+        imgUrl: learnworld1,
         categories: "Wordpress",
         linkUrl: "https://learnworlds.ch/",
     },
