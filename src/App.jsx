@@ -57,7 +57,7 @@ function App() {
             <Button className="strong"><a href="" target="_blank">BuzzStrivePro</a></Button>
           </span>
           <span className="d-flex align-items-center footerIcon">
-            <Link to="https://www.fiverr.com/mqasim888" target="_blank">
+            <Link to="/" target="_blank">
               <Button className="toogletheme fiverr"><TbBrandFiverr /></Button>
             </Link>
             <Link to="https://github.com/MQasim34" target="_blank">
